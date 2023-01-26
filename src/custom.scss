@@ -1,0 +1,27 @@
+
+
+$theme-colors: (
+ "dull-light":hsl(0, 0%, 96%),
+ "blue": hsl(240, 100%, 50%),
+ "indigo": hsl(275,100%,25%),
+ "purple": hsl(300,100%,25%),
+ "pink": hsl(0, 69%, 86%),
+ "red": hsl(0, 100%, 40%)	,
+ "orange": hsl(33, 85%, 53%),
+ "yellow": hsl(54, 95%, 67%)	,
+ "green": hsl(138, 97%, 38%)	,
+ "teal": 	hsl(180, 100%, 25%),
+ "cyan": hsl(180, 100%, 50%),
+ "white": hsl(240, 100%, 99%)	,
+ "gray": hsl(135, 8%, 72%)	,
+ "gray-dark": hsl(60, 1%, 51%),
+);
+
+div.navbar-nav {
+    --bs-nav-link-hover-color:orange;
+  }
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
